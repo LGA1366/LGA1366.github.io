@@ -356,7 +356,7 @@ img.logo {
 .news-min-center-time {
     font-size: 12px;
     position: absolute;
-    left: 74px;
+    left: 120px;
     padding-left: 15px;
     background-image: url(img/icon-time.png);
     background-repeat: no-repeat;
@@ -365,7 +365,7 @@ img.logo {
 .news-min-center-comments-count {
     font-size: 12px;
     position: absolute;
-    left: 135px;
+    left: 180px;
     padding-left: 15px;
     background-image: url(img/icon-comments.png);
     background-repeat: no-repeat;
