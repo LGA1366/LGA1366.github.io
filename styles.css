@@ -26,6 +26,7 @@ footer {
 .fixed-container {
     width: 1000px;
     margin: 0 auto;
+    padding: 0 0 2px 2px;
     color: white;
     overflow: hidden;
 }
