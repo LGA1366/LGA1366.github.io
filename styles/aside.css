@@ -1,0 +1,26 @@
+.column-right {
+    float: right;
+
+    width: 250px;
+
+    box-shadow: 0 9px 0px 0px #f7f7f7, 0 -9px 0px 0px #f7f7f7, 12px 0 15px -4px #f3f3f3, -12px 0 15px -4px #f3f3f3;
+    background-color: #f7f7f7;
+}
+
+.column-right-img-first {
+    margin-bottom: 17px;
+}
+
+.column-right-img-second {
+    margin-bottom: 13px;
+}
+
+.special-news {
+    position: relative;
+    float: left;
+    
+    width: 590px;
+    height: 393px;
+    
+    margin-top: 0px;
+}

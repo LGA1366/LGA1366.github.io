@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box; /*Свойства width и height включают в себя значения padding и border, но не margin.*/
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;/* Все элементы и псевдоэлементы наследуют border-box */
+}
+
+
+body {
+    min-width: 320px;
+    
+    margin: 0;
+    padding: 0;
+    
+    letter-spacing: -.4px; /* Текстовые свойства - наследуемые, определяем для больинства, потом переопределяем для конкрентных элементов */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body.modal-active {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%; /* Максимальная ширина картинок, чтоб не растягивались при масштабировании, я так понимаю */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+}
+
+footer {
+    overflow: hidden;
+    
+    background-color: #00122f;
+}
+
+.fixed-container {
+    overflow: hidden;
+    
+    width: 1000px;
+    margin: 0 auto;
+    
+    color: white;
+}
+
+.clearfix::after { /* "псевдораспорка" */
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.visually-hidden { /* скрываем H2 в центральной секции */
+    position: absolute !important;
+    position: absolute;
+    overflow: hidden;
+    
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    clip: rect(0 0 0 0);
+    
+    width: 1px !important;
+    width: 1px;
+    height: 1px !important;
+    height: 1px;
+    
+    margin: -1px;
+    padding: 0 !important;
+    
+    border: 0 !important;
+}
+
+
+
