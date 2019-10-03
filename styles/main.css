@@ -7,7 +7,11 @@
     overflow: hidden;
     
     padding-top: 23px;
+<<<<<<< HEAD
     padding-bottom: 56px;
+=======
+    padding-bottom: 60px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     
     background-color: #f9f9f9;
     background-image: linear-gradient(to bottom, #f3f3f3 7px, #f7f7f7 14px, #f9f9f9 35px);
@@ -21,8 +25,11 @@
 
 .column-left {
     float: left;
+<<<<<<< HEAD
 
     padding-bottom: 26px;
+=======
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     
     width: 250px;
     
@@ -31,7 +38,11 @@
 }
 
 .columnleft-h2 {
+<<<<<<< HEAD
     margin: 0 0 28px;
+=======
+    margin: 0 0 15px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     padding: 25px 0 22px 17px;
 
     letter-spacing: -.3px;
@@ -41,20 +52,30 @@
 }
 
 .news-left-a {
+<<<<<<< HEAD
     display: block;
     
     margin-bottom: 13px;
     
+=======
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     text-decoration: none;
 }
 
 .news-item {
     overflow: hidden;
 
+<<<<<<< HEAD
+=======
+    margin-bottom: 7px;
+    padding-left: 17px;
+
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     font-size: 14px;
     line-height: 1.4;
 }
 
+<<<<<<< HEAD
 .column-left-news-li {
     margin-bottom: 21px;
 }
@@ -78,11 +99,33 @@
     font-style: normal;
     font-stretch: normal;
     letter-spacing: -0.28px;
+=======
+.news-find-all {
+    display: block;
+
+    width: 180px;
+    height: 45px;
+
+    margin: 37px 37px 25px 37px;
+
+    background-image: url(../img/searche-button.png);
+    background-repeat: no-repeat;
+}
+
+.news-find-all a {
+    text-decoration: none;
+    color: #448ccb;
+
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 }
 
 .news-item-text-l1 {
     margin: 0;
+<<<<<<< HEAD
     padding-right: 20px;
+=======
+    padding: 14px 30px 14px 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: 0.4px;
     color: black;
@@ -92,7 +135,12 @@
 }
 
 .news-item-text-l2 {
+<<<<<<< HEAD
     margin: 0; 
+=======
+    margin: 0;
+    padding: 13px 15px 13px 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: 0.4px;
     color: black;
@@ -103,6 +151,10 @@
 
 .news-item-text-l3 {
     margin: 0;
+<<<<<<< HEAD
+=======
+    padding: 15px 15px 13px 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: 0.4px;
     color: black;
@@ -113,7 +165,11 @@
 
 .news-item-text-l4 {
     margin: 0;
+<<<<<<< HEAD
     padding-right: 15px;
+=======
+    padding: 13px 20px 13px 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: 0.4px;
     color: black;
@@ -124,7 +180,11 @@
 
 .news-item-text-l5 {
     margin: 0;
+<<<<<<< HEAD
     
+=======
+    padding: 15px 10px 13px 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: 0.4px;
     color: black;
@@ -135,7 +195,11 @@
 
 .news-item-text-l6 {
     margin: 0;
+<<<<<<< HEAD
     padding-right: 50px;
+=======
+    padding: 13px 60px 13px 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: 0.4px;
     color: black;
@@ -146,7 +210,11 @@
 
 .news-item-text-special {
     margin: 0;
+<<<<<<< HEAD
     
+=======
+    padding: 14px 25px 14px 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: .8px;
     color: black;
@@ -163,10 +231,14 @@
 }
 
 .column-left-news {
+<<<<<<< HEAD
     margin-bottom: 36px;
     padding-inline-start: 0;
     padding-left: 17px;
     padding-right: 10px;
+=======
+    padding-inline-start: 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 }
 
 .news-time {
@@ -186,7 +258,11 @@
 .news-comments-count {
     float: right;
 
+<<<<<<< HEAD
     margin-right: 28px;
+=======
+    margin-right: 40px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     margin-left: 18px;
     padding-left: 15px;
 
@@ -229,11 +305,19 @@
 }
 
 .column-center {
+<<<<<<< HEAD
     overflow: hidden;
     float: left;
 
     width: 463px;
     margin-left: 19px;
+=======
+    position: relative;
+    float: left;
+
+    width: 463px;
+    margin-left: 18px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     box-shadow: 0 9px 0px 0px #f7f7f7, 0 -9px 0px 0px #f7f7f7, 12px 0 15px -4px #f3f3f3, -12px 0 15px -4px #f3f3f3;
     background-color: #f7f7f7;
@@ -346,6 +430,7 @@
 }
 
 .news-min-center-l {
+<<<<<<< HEAD
     overflow: hidden;
     float: left;
 
@@ -360,13 +445,40 @@
     float: right;
 
     width: 220px;
+=======
+    position: relative;
+    float: left;
+
+    width: 221px;
+    height: 240px;
+
+    margin-top: 4px;
+    margin-right: 15px;
+    margin-bottom: 9px;
+}
+
+.news-min-center-r {
+    position: relative;
+    float: right;
+
+    width: 220px;
+    height: 240px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     margin-right: 2px;
     margin-bottom: 17px;
 }
 
 .news-min-center-h3-f {
+<<<<<<< HEAD
     margin: 0;
+=======
+    width: 210px;
+    height: 55px;
+
+    margin: 0;
+    padding: 3px 0 13px 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: -.3px;
     font-size: 14px;
@@ -376,8 +488,16 @@
 }
 
 .news-min-center-h3-s {
+<<<<<<< HEAD
     margin: 0;
     
+=======
+    width: 195px;
+    height: 55px;
+
+    margin: 0;
+    padding-bottom: 13px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: -.3px;
     font-size: 14px;
@@ -387,8 +507,16 @@
 }
 
 .news-min-center-h3-t {
+<<<<<<< HEAD
     margin: 0;
     
+=======
+    width: 209px;
+    height: 55px;
+
+    margin: 0;
+    padding: 3px 0 14px 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: -.3px;
     font-size: 14px;
@@ -398,8 +526,16 @@
 }
 
 .news-min-center-h3-fo {
+<<<<<<< HEAD
     margin: 0;
     
+=======
+    width: 170px;
+    height: 55px;
+
+    margin: 0;
+    padding: 3px 0 13px 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 
     letter-spacing: -.3px;
     font-size: 14px;
@@ -420,6 +556,10 @@
 .news-min-a-center-first {
     float: left;
 
+<<<<<<< HEAD
+=======
+    margin-top: 20px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     margin-right: 2px;
     margin-left: 3px;
 
@@ -432,7 +572,11 @@
 .news-min-a-center-second {
     float: left;
 
+<<<<<<< HEAD
 
+=======
+    margin-top: 20px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     margin-right: 4px;
     margin-left: 3px;
 
@@ -445,6 +589,10 @@
 .news-min-a-center-third {
     float: left;
 
+<<<<<<< HEAD
+=======
+    margin-top: 20px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     margin-right: 2px;
     margin-left: 3px;
 
@@ -457,7 +605,11 @@
 .news-min-a-center-fourth {
     float: left;
 
+<<<<<<< HEAD
 
+=======
+    margin-top: 20px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     margin-right: 2px;
     margin-left: 3px;
 
@@ -467,6 +619,7 @@
     font-size: 12px;
 }
 
+<<<<<<< HEAD
 .news-min-a-descr-l {
     display: block;
 
@@ -484,6 +637,12 @@
     float: left;
 
     margin: 0px 15px 0 10px;
+=======
+.news-min-center-time {
+    float: left;
+
+    margin: 19px 15px 0 10px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     padding-left: 15px;
 
     letter-spacing: 0;
@@ -497,6 +656,10 @@
 .news-min-center-comments-count {
     float: left;
 
+<<<<<<< HEAD
+=======
+    margin-top: 19px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     padding-left: 19px;
 
     letter-spacing: 0;
@@ -519,7 +682,11 @@
     width: 392px;
 
     margin: 0 0 12px;
+<<<<<<< HEAD
     margin-bottom: 27px;
+=======
+    margin-bottom: 12px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     padding: 27px 2px 23px 0;
 
     letter-spacing: -.3px;
@@ -532,10 +699,13 @@
     float: right;
     overflow: hidden;
 
+<<<<<<< HEAD
     margin-bottom: 21px;
     padding-left: 18px;
     padding-right: 25px;
 
+=======
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     width: 410px;
 
     margin-top: 0px;

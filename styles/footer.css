@@ -12,7 +12,10 @@
     
     width: 1000px;
     margin: 0 auto;
+<<<<<<< HEAD
     padding-top: 57px;
+=======
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     
     color: white;
 }
@@ -38,6 +41,10 @@
     float: left;
     
     margin-right: 50px;
+<<<<<<< HEAD
+=======
+    padding-top: 57px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     
     color: white;
     border: none;
@@ -53,7 +60,11 @@
 .foot-link-thd {
     float: left;
     
+<<<<<<< HEAD
     margin: 0px 0 0 123px;
+=======
+    padding: 60px 0 0 123px;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     
     color: white;
     border: none;
@@ -72,6 +83,7 @@
     
     vertical-align: top;
 }
+<<<<<<< HEAD
 .foot-address {
     overflow: hidden;
 
@@ -83,6 +95,13 @@
     float: right;
     
     padding: 0;
+=======
+
+.foot-link-social {
+    float: right;
+    
+    padding: 57px 0 0 0;
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
 }
 
 .foot-link-social-li {
@@ -193,8 +212,11 @@
 }
 
 .copy {
+<<<<<<< HEAD
     display: block;
 
+=======
+>>>>>>> 8a7895f490d68289c266758ea56b157f88d27b4b
     margin-top: 34px;
     margin-bottom: 4px;
     padding-top: 17px;
