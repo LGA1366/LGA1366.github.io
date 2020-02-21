@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box; 
+    
 }
 
 *,
@@ -9,12 +10,14 @@ html {
 }
 
 
-body {    
-    margin: 0 auto;
+body {
+    min-width: 320px;
+    overflow: auto;
+    margin: 0;
     padding: 0;
     
     letter-spacing: -.4px; 
-    font-family: "Arial", "Helvetica", "sans-serif";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
@@ -27,33 +30,11 @@ a {
     color: inherit;
 }
 
-ul {
+.list__reset {
     margin: 0;
     padding: 0;
     
     list-style: none;
-}
-
-footer {
-    overflow: hidden;
-    
-    background-color: #00122f;
-}
-
-.fixed-container {
-    overflow: hidden;
-    
-    max-width: 1040px;
-    margin: 0 auto;
-    padding: 0 20px;
-    
-    color: white;
-}
-
-.clearfix::after { /* "псевдораспорка" */
-    display: table;
-    clear: both;
-    content: "";
 }
 
 .visually-hidden { /* скрываем H2 в центральной секции */

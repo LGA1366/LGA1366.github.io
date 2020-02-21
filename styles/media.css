@@ -1,0 +1,19 @@
+@media (max-width: 1035px) {
+    .header__logo {
+        margin-right: 40px;
+    }
+
+    .header__time {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1039px) {
+    .newsreport__wrapper {
+        margin-right: 10px;
+    }
+
+    .mainnews {
+        margin-right: 10px;
+    }
+}

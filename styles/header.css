@@ -1,117 +1,117 @@
-.header {
-    padding-bottom: 30px;
+.topbar__wrapper {
+    background-color: #00122f;
 }
 
-.logo {
-    margin-right: 55px;
-    vertical-align: top;
+.fixed__container {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1040px;
+
+    margin: 0 auto;
+    padding: 20px 20px 17px 20px;
+
 }
 
-.date-time {
-    float: right;
+.topbar__heading {
+    padding: 0;
+    margin: 0;
+
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
 }
 
-.date-time-time {
-    float: right;
-
-    margin-right: 10px;
+.topbar__link {
+    text-decoration: underline;
+    color: #fff;
 }
 
-.header-dropdown-a {
+.topbar__datetime__wrapper {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.topbar__time {
+    margin-right: 6px;
+}
+
+.fixed__container__header {
+    max-width: 1040px;
+
+    margin: 0 auto;
+    padding: 38px 20px 32px 20px;
+}
+
+.fixed__container__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 60px;
+}
+
+.header__dropdown__menu {
     margin-right: 43px;
-    padding-right: 17px;
+    padding-right: 20px;
     
     color: #4f9ed1;
-    background-image: url(../img/down-arrow.svg);
+    background-image: url('../img/down-arrow.svg');
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 15%;
+    background-size: 15%;    
 }
 
-.header-dropdown {
+.dropdown__first__link {
+    padding-bottom: 3px;
+
     border-bottom: 1px dashed;
 }
-.date-format-time {
+
+.header__date {
+    color: #91919f;
+}
+
+.header__time {
     margin-left: 30px;
     padding-left: 25px;
     
-    background-image: url(../img/clock-blue.svg);
+    background-image: url('../img/clock-blue.svg');
     background-repeat: no-repeat;
     background-size: 16px;
+    color: #91919f;
 }
 
-.degree-format {
-    display: inline-block;
-    vertical-align: top;
+.header__temperature {
+    align-self: stretch;
     
     margin-right: 40px;
-    margin-left: 29px;
+    margin-left: 35px;
     padding-top: 13px;
     padding-left: 39px;
-    
-    background-image: url(../img/cloud-blue.svg);
+
+    background-image: url('../img/cloud-blue.svg');
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: 3px;
     background-size: 31px;
-}
-
-.news {
-    float: left;
-    
-    margin: 0;
-    padding: 0;
-    
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.news_a {
-    color: white;
-    text-decoration: underline;
-}
-
-.fixed-container-logo {
-    overflow: hidden;
-    
-    width: 1000px;
-    margin: 0 auto;
-    padding: 40px 0 35px 0;
-}
-
-.top-bar {
-    padding: 18px 0 19px 0;
-    
-    background-color: #00122f;
-}
-
-.fixed-container-top-bar {
-    overflow: hidden;
-    
-    width: 1000px;
-    margin: 0 auto;
-    
-    color: white;
-}
-
-.date-format,
-.time-format,
-.degree-format {
     color: #91919f;
 }
 
-.search {
+.header__search__form {
     position: relative;
     display: inline;
 }
 
-.search-area {
+.search__form__input {
     padding-right: 35px;
 
     width: 320px;
     height: 45px;
     
-    text-indent: 23px;
+    text-indent: 26px;
     letter-spacing: .1px;
     font-size: 13px;
     
@@ -120,53 +120,40 @@
     background-color: #f3f3f3;
 }
 
-.search-icon {
+.search__button {
     position: absolute;
-    top: 2px;
-    right: 14px;
+    top: 14px;
+    right: 12px;
     
     width: 19px;
     height: 16px;
     
     border: none;
     background-color: #f3f3f3;
-    background-image: url(../img/search.svg);
+    background-image: url('../img/search.svg');
     background-repeat: no-repeat;
 }
 
-.nav-head {
-    margin-top: 0;
-    padding: 0;
+.header__navigation {
+    padding-top: 37px;
 }
 
-.li-nav-head-1 {
-    display: inline;
-    
-    margin-right: 17px;
+.header__navigation__list {
+    display: flex;
 }
 
-.li-nav-head {
-    display: inline;
-
-    margin-right: 14px;
+.header__nav__item {
+    margin-right: 20px;
 }
 
-.li-nav-head::before {
-    content: "/";
-    
-    color: #e1e1e5;
+.header__nav__item ::after {
+    padding-left: 19px;
+
+    content: '/';
+
+    color: rgba(145, 145, 159, 0.3);
 }
 
-.link-head {
-    margin-left: 16px;
-
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-}
-
-.link-head-1 {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
+.header__nav__item:last-child ::after {
+    content: '';
 }

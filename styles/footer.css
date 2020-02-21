@@ -1,91 +1,57 @@
-.list {
-    padding-left: 20px;
+footer {
+    overflow: auto;
+
+    background-color: #00122f;
 }
 
-.list-item {
-    display: list-item;
-}
-
-.fixed-container-foot {
-    position: relative;
-    overflow: hidden;
+.fixed__container__foot {
+    display: flex;
+    justify-content: space-between;
     
-    width: 1000px;
+    max-width: 1040px;
     margin: 0 auto;
-    padding-top: 57px;
+    padding: 57px 20px 10px 20px;
     
     color: white;
 }
 
-.foot-link-pri-a,
-.foot-link-sec-a,
-.foot-link-thd-a {
-    margin-bottom: 20px;
-    
-    text-decoration: none;
-    color: white;
-    font-weight: normal;
+.footer__navigation {
+    margin-right: 23px;
 }
 
-.foot-link-pri-li,
-.foot-link-sec-li,
-.foot-link-thd-li {
-    margin-right: 28px;
-    margin-bottom: 14px;
-}
-
-.foot-link-pri {
-    float: left;
-    
-    margin-right: 50px;
-    
-    color: white;
-    border: none;
-    font-weight: bold;
-}
-
-.foot-link-pri-ul {
+.footer__navigation__list {
     display: inline-block;
     
     column-count: 2;
 }
 
-.foot-link-thd {
-    float: left;
-    
-    margin: 0px 0 0 123px;
-    
-    color: white;
-    border: none;
-    font-weight: bold;
+.footer__navigation__item {
+    margin-right: 28px;
+    margin-bottom: 14px;
 }
 
-.foot-link-thd-ul {
-    padding-left: 4px;
-    
-    letter-spacing: -.3px;
+.footer__about__wrapper {
+    padding-top: 4px;
+    padding-left: 2px;
 }
 
-.logo-foot {
-    margin-right: 55px;
+.logo__foot {
     margin-bottom: 20px;
     
     vertical-align: top;
 }
-.foot-address {
+
+
+
+.foot__address {
     overflow: hidden;
 
     letter-spacing: 0;
     font-size: 17px;
     font-style: normal;
 }
-.foot-link-social {
-    float: right;
-    
-    padding: 0;
-}
 
-.foot-link-social-li {
+.footer__social__item {
     display: inline;
 }
 
@@ -156,9 +122,7 @@
     background-size: 50%;
 }
 
-.foot-contactus {
-    float: right;
-    
+.footer__contact__list {
     padding-top: 37px;
     padding-right: 42px;
     
@@ -166,7 +130,7 @@
     font-size: 17px;
 }
 
-.foot-contactus-li {
+.footer__contact__item:first-child {
     margin-bottom: 25px;
 }
 
