@@ -11,6 +11,12 @@
     float: right;
 }
 
+.date-time-time {
+    float: right;
+
+    margin-right: 10px;
+}
+
 .header-dropdown-a {
     margin-right: 43px;
     padding-right: 17px;
@@ -77,6 +83,15 @@
     padding: 18px 0 19px 0;
     
     background-color: #00122f;
+}
+
+.fixed-container-top-bar {
+    overflow: hidden;
+    
+    width: 1000px;
+    margin: 0 auto;
+    
+    color: white;
 }
 
 .date-format,

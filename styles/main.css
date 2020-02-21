@@ -1,6 +1,6 @@
-.fixed-container-shadow {
+/* .fixed-container-shadow {
     box-shadow: 0 9px 0px 0px #f7f7f7, 0 -9px 0px 0px #f7f7f7, 12px 0 15px -4px #f3f3f3, -12px 0 15px -4px #f3f3f3;
-}
+} */
 
 .central-container {
     position: relative;
@@ -19,12 +19,22 @@
     height: 322px;
 }
 
-.column-left {
+.left__container {
     float: left;
 
-    padding-bottom: 26px;
-    
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+
     width: 250px;
+}
+
+.column-left {
+    
+
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    
+    
     
     background-color: #FFFFFF;
     box-shadow: 0 9px 0px 0px #f7f7f7, 0 -9px 0px 0px #f7f7f7, 12px 0 15px -4px #f3f3f3, -12px 0 15px -4px #f3f3f3;
@@ -66,12 +76,15 @@
     height: 45px;
 
     margin: 0 auto;
+    margin-bottom: 30px;
 
     color: #448ccb;
     border: 1px solid #448ccb;
     text-align: center;
     line-height: 45px;
     border-radius: 30px;
+    cursor: pointer;
+    outline: none;
 
     font-size: 14px;
     font-weight: normal;
@@ -592,4 +605,63 @@
     letter-spacing: -.3px;
     color: white;
     font-size: 12px;
+}
+
+.currencies {
+    padding: 10px 10px 10px 17px;
+
+    background-color: #fff;
+    box-shadow: 0 9px 0px 0px #f7f7f7, 0 -9px 0px 0px #f7f7f7, 12px 0 15px -4px #f3f3f3, -12px 0 15px -4px #f3f3f3;
+}
+
+.currencies__table {
+    margin: 0 auto;
+
+    border-collapse: collapse;
+}
+
+.currencies__row {
+    border-bottom: 1px solid #e5e5e5;
+
+    letter-spacing: 0.4px;
+}
+
+.currencies__top {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.eur__exchange{
+    margin-right: 30px;
+    padding-right: 20px;
+
+    display: block;
+
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-image: url(../img/euro.svg);
+}
+
+.usd__exchange {
+    margin-right: 30px;
+    padding-right: 20px;
+
+    display: block;
+
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-image: url(../img/dollar-symbol.svg);
+}
+
+.unavailable {
+    text-align: center;
 }
