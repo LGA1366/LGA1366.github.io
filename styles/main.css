@@ -50,8 +50,6 @@
 }
 
 .newsreport__item {
-    display: flex;
-
     margin-bottom: 21px;
 }
 
@@ -386,14 +384,13 @@
 }
 
 .popular__news__list {
-    width: 412px;
     flex-grow: 1;
 }
 
 .popular__news__header {
-    width: 412px;
     margin: 0 0 25px;
     padding: 26px 0 23px 19px;
+
     letter-spacing: -.3px;
     font-size: 20px;
     border-bottom: 1px solid #e5e5e5;
@@ -427,8 +424,6 @@
 .popular__news__big {
     position: relative;
     
-    width: 588px;
-    height: 393px;
     margin-top: 0px;
 }
 
