@@ -9,6 +9,20 @@ $(document).ready(function(){
     <time class="topbar__date" datetime="2019-08-21T16:00">${date}</time>
     `
     );
+
+    const burgerBtn = $('.js__header__burger'),
+          headerContainerElem = $('.js__fixed__container__header');
+
+        headerContainerElem.on('click', '.js__header__burger', function(event){
+        event.preventDefault();
+        console.log($(this));
+        $(this).find('.header__burger__span').toggleClass('pressed');
+        $(this).parents('.js__fixed__container__header').find('.header__navigation').toggleClass('header__navigation__burger');
+        $(this).parents('.js__fixed__container__header').find('.header__navigation__list').toggleClass('header__navigation__list__burger');
+        $(this).parents('.js__fixed__container__header').find('.header__nav__item').toggleClass('header__nav__item__burger');
+        $(this).parents('html').toggleClass('show__burger');
+
+    });
     //     const baseUrl = "http://data.fixer.io/api/latest?access_key=",
     //           key = "fede7e12e787ff5ee406bcaa05ef258f",
     //           eurRow = $('.js__eur__exchange'),

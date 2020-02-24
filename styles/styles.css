@@ -57,5 +57,8 @@ a {
     border: 0 !important;
 }
 
+.show__burger {
+    overflow: hidden;
+}
 
 
