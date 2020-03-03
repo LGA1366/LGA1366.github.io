@@ -46,6 +46,7 @@
 
 .fixed__container__logo {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -165,17 +166,15 @@
 }
 
 .header__temperature {
-    align-self: stretch;
-    
     margin-right: 40px;
     margin-left: 35px;
-    padding-top: 13px;
+    padding-top: 5px;
     padding-left: 39px;
 
     background-image: url('../img/cloud-blue.svg');
     background-repeat: no-repeat;
     background-position-x: left;
-    background-position-y: 3px;
+    background-position-y: -5px;
     background-size: 31px;
     color: #91919f;
 }
