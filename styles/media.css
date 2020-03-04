@@ -197,6 +197,54 @@
 }
 
 @media (max-width: 460px) {
+    .main__container {
+        padding-bottom: 24px;
+    }
+
+    .mainnews__big {
+        margin-bottom: 25px;
+    }
+
+    .mainnews__big__header {
+        padding-right: 30px;
+        top: 170px;
+        left: 27px;
+
+        width: auto;
+        height: auto;
+
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .mainnews__big__category__link {
+        top: 144px;
+        left: 27px;
+    }
+
+    .mainnews__big__pub__date {
+        top: 280px;
+        left: 24px;
+    }
+
+    .mainnews__article {
+        margin-bottom: 25px;
+    }
+
+    .mainnews__header {
+        padding: 0px 20px;
+
+        letter-spacing: .2px;
+    }
+
+    .mainnews__category__link {
+        margin-left: 20px;
+    }
+
+    .mainnews {
+        padding-bottom: 20px;
+    }
+
     .china {
         height: 310px;
         
@@ -289,54 +337,6 @@
     .header__temperature {
         margin-left: 17px;
         margin-right: 0;
-    }
-
-    .main__container {
-        padding-bottom: 24px;
-    }
-
-    .mainnews__big {
-        margin-bottom: 25px;
-    }
-
-    .mainnews__big__header {
-        padding-right: 30px;
-        top: 170px;
-        left: 27px;
-
-        width: auto;
-        height: auto;
-
-        font-size: 22px;
-        line-height: 30px;
-    }
-
-    .mainnews__big__category__link {
-        top: 144px;
-        left: 27px;
-    }
-
-    .mainnews__big__pub__date {
-        top: 280px;
-        left: 24px;
-    }
-
-    .mainnews__article {
-        margin-bottom: 25px;
-    }
-
-    .mainnews__header {
-        padding: 0px 20px;
-
-        letter-spacing: .2px;
-    }
-
-    .mainnews__category__link {
-        margin-left: 20px;
-    }
-
-    .mainnews {
-        padding-bottom: 20px;
     }
 
     .newsreport {
