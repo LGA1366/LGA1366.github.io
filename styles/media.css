@@ -281,7 +281,7 @@
         width: auto;
     }
 
-    .popular__news___article a .mainnews__category__link {
+    .popular__news___article > a.mainnews__category__link {
         margin-left: 0;
     }
 }
