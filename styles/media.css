@@ -179,6 +179,10 @@
         margin-bottom: 0;
     }
 
+    .popular__news___article > a.mainnews__category__link {
+        margin-left: 0;
+    }
+    
     .fixed__container__foot {
         flex-direction: column;
     }
@@ -279,10 +283,6 @@
         padding-right: 45px;
 
         width: auto;
-    }
-
-    .popular__news___article > a.mainnews__category__link {
-        margin-left: 0;
     }
 }
 
