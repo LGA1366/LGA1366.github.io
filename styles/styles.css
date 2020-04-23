@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box; 
-    
 }
 
 *,
@@ -17,7 +16,7 @@ body {
     padding: 0;
     
     letter-spacing: -.4px; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica", sans-serif;
     font-size: 16px;
 }
 
@@ -39,7 +38,7 @@ a {
     list-style: none;
 }
 
-.visually-hidden { /* скрываем H2 в центральной секции */
+.visually-hidden {
     position: absolute !important;
     position: absolute;
     overflow: hidden;
@@ -57,10 +56,6 @@ a {
     padding: 0 !important;
     
     border: 0 !important;
-}
-
-.show__burger {
-    overflow: hidden;
 }
 
 

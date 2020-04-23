@@ -5,16 +5,17 @@
         <meta name="robots" content="index">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-        <link rel="stylesheet" type="text/css" href="styles/styles.css">
-        <link rel="stylesheet" type="text/css" href="styles/header.css">
-        <link rel="stylesheet" type="text/css" href="styles/main.css">
-        <link rel="stylesheet" type="text/css" href="styles/aside.css">
-        <link rel="stylesheet" type="text/css" href="styles/footer.css">
-        <link rel="stylesheet" type="text/css" href="styles/media.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/media.css">
+        <link rel="stylesheet" href="styles/no_js.css">
+        <link rel="stylesheet" href="styles/mobile_nav_menu_open.css">
         <title>Новостной агенство</title>
     </head>
-<body>
+<body class="no__js">
     <header>
         <div class="topbar__wrapper">
             <div class="fixed__container js__topbar">
@@ -26,44 +27,26 @@
         </div>
         <div class="fixed__container__header js__fixed__container__header">
             <div class="fixed__container__logo js__fixed__container__logo">
-                <button class="header__burger js__header__burger" type="button">
+                <button class="header__burger js__header__burger" type="button" name="burger-btn" aria-label="Открыть меню">
                     <span class="header__burger__span"></span>
                 </button>
-                <a class="header__logo">
-                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	                viewBox="0 0 58 58" style="enable-background:new 0 0 58 58;" xml:space="preserve">
-                        <style type="text/css">
-	                        .st0{fill:#0072BC;}
-                        </style>
-                        <path class="st0" d="M50.7,48.2C55.2,43.1,58,36.4,58,29c0-7.7-3-14.6-7.9-19.8v0c0,0,0,0,0,0C45,3.8,37.9,0.3,30,0l0,0l-0.6,0
-                            c-0.1,0-0.3,0-0.4,0s-0.3,0-0.4,0L28,0l0,0C20.1,0.3,13,3.8,7.9,9.2c0,0,0,0,0,0c0,0,0,0,0,0C3,14.4,0,21.3,0,29
-                            c0,7.4,2.8,14.1,7.3,19.2c0,0,0,0,0,0c0,0,0,0,0.1,0.1C12.5,54,19.8,57.7,28,58l0,0l0.6,0c0.1,0,0.3,0,0.4,0s0.3,0,0.4,0l0.6,0l0,0
-                            C38.2,57.7,45.5,54,50.7,48.2C50.6,48.3,50.7,48.3,50.7,48.2C50.7,48.2,50.7,48.2,50.7,48.2z M2,30h12c0.1,4.2,0.9,8.4,2.4,12.2
-                            c-2.8,1-5.6,2.4-8.1,4.1C4.6,41.9,2.3,36.2,2,30z M8.9,11c2.5,1.6,5.1,2.9,7.9,3.9C15.1,19,14.1,23.4,14,28H2
-                            C2.3,21.5,4.8,15.6,8.9,11z M56,28H44c-0.1-4.6-1.1-9-2.8-13.1c2.8-1,5.4-2.3,7.9-3.9C53.2,15.6,55.7,21.5,56,28z M28,15
-                            c-2.9-0.1-5.7-0.5-8.5-1.3c2-4.2,4.9-7.9,8.5-11V15z M28,17v11H16c0.1-4.3,1-8.6,2.7-12.5C21.7,16.4,24.8,16.9,28,17z M30,17
-                            c3.2-0.1,6.3-0.6,9.3-1.4c1.6,3.9,2.5,8.1,2.7,12.5H30V17z M30,15V2.6c3.6,3.1,6.4,6.9,8.5,11C35.7,14.4,32.9,14.9,30,15z
-                            M40.4,13.1c-1.9-4-4.6-7.7-7.9-10.8C38.4,3,43.6,5.7,47.7,9.6C45.4,11,43,12.2,40.4,13.1z M17.6,13.1c-2.5-0.9-5-2.1-7.3-3.5
-                            c4.1-3.9,9.3-6.6,15.2-7.3C22.2,5.4,19.5,9,17.6,13.1z M16,30h12v10c-3.3,0.1-6.5,0.6-9.7,1.5C16.9,37.9,16.1,34,16,30z M28,42v13.3
-                            c-3.8-3.3-6.8-7.4-8.9-11.9C22,42.6,25,42.1,28,42z M30,55.4V42c3,0.1,6,0.6,8.9,1.4C36.8,47.9,33.8,52,30,55.4z M30,40V30h12
-                            c-0.1,4-0.9,7.9-2.3,11.6C36.5,40.6,33.3,40.1,30,40z M44,30h12c-0.2,6.2-2.6,11.9-6.3,16.3c-2.5-1.7-5.3-3.1-8.1-4.1
-                            C43,38.4,43.9,34.2,44,30z M9.7,47.8c2.4-1.6,4.9-2.8,7.5-3.8c1.9,4.4,4.7,8.3,8.3,11.7C19.3,55,13.8,52.1,9.7,47.8z M32.5,55.8
-                            c3.5-3.4,6.3-7.3,8.3-11.7c2.6,0.9,5.2,2.2,7.5,3.8C44.2,52.1,38.7,55,32.5,55.8z"/>
-                    </svg>
-                    <span class="logo__title">Новостное агенство</span>
+                <a href="#" class="logo__link">
+                    <picture>
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/Logo-desktop@1x.png 1x, img/Logo-desktop@2x.png 2x">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/Logo-mobile@1x.webp 1x, img/Logo-mobile_2x.webp 2x" type="image/webp">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/Logo-mobile@1x.png 1x, img/Logo-mobile@2x.png 2x">
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/Logo-desktop@1x.webp 1x, img/Logo-desktop_2x.webp 2x" type="image/webp">
+                        <img class="header__logo picture__logo" src="img/Logo-desktop@1x.png" srcset="img/Logo-desktop@2x.png 2x" alt="Новостное агенство" title="Новостное агенство">
+                    </picture>
                 </a>
-                <!-- <img class="header__logo" src="img/logo.png" alt="Новостное агенство" title="Новостное агенство"> -->
                 <a class="header__dropdown__menu" href="#">
                     <span class="dropdown__first__link">Москва</span>
                 </a>
-                <div class="header__datetemp__wrapper">
-                    <time class="header__date" datetime="2019-08-21T11:55">19 июня, Вт. 
-                    <span class="header__time">11:55</span>
-                    </time>
+                <div class="header__datetemp__wrapper js__header__datetemp__wrapper">
                     <span class="header__temperature">+22 &#8451;</span>
                 </div>
-                <form class="header__search__form" name="search-form" action="https://echo.htmlacademy.ru" enctype="application/x-www-form-urlencoded" method="GET">
-                    <input class="search__form__input" type="search" placeholder="Поиск по сайту">
+                <form class="header__search__form js__search__form" name="search-form" action="https://echo.htmlacademy.ru/" enctype="application/x-www-form-urlencoded" method="GET">
+                    <input class="search__form__input js__search__input" type="search" placeholder="Поиск по сайту">
                     <button class="search__button" aria-label="Найти" type="submit"></button>
                 </form>
             </div>
@@ -203,7 +186,13 @@
             <section class="mainnews">
                 <h2 class="visually-hidden">Центральный блок новостей</h2>
                 <article class="mainnews__big">
-                    <img class="krym" src="img/krym.png" alt="Фото Крым">
+                    <picture>
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/Krym-desktop@1x.png 1x, img/Krym-desktop@2x.png 2x">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/Krym-mobile@1x.webp 1x, img/Krym-mobile_2x.webp 2x" type="image/webp">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/Krym-mobile@1x.png 1x, img/Krym-mobile@2x.png 2x">
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/Krym-desktop@1x.webp 1x, img/Krym-desktop_2x.webp 2x" type="image/webp">
+                        <img class="krym" src="img/Krym-desktop@1x.png" srcset="img/Krym-desktop@2x.png 2x" alt="Новостное агенство" title="Новостное агенство">
+                    </picture>
                     <a href="#">
                         <h3 class="mainnews__big__header">В Крыму отреагировали на слова Кравчука о возврате полуострова</h3>
                     </a>
@@ -212,7 +201,13 @@
                     <span class="mainnews__big__pub__time">10:45</span></time>
                 </article>
                 <article class="mainnews__article">
-                    <img class="mainnews__image" src="img/news-min-1.png" alt="Алексей Навальный фото">
+                    <picture>
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/news-min-1@1x.png 1x, img/news-min-1@2x.png 2x">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/news-min-1-mobile@1x.webp 1x, img/news-min-1-mobile@2x.webp 2x" type="image/webp">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/news-min-1-mobile@1x.png 1x, img/news-min-1-mobile@2x.png 2x">
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/news-min-1@1x.webp 1x, img/news-min-1@2x.webp 2x" type="image/webp">
+                        <img class="mainnews__image" src="img/news-min-1@1x.png" srcset="img/news-min-1@2x.png 2x" alt="Новость 1" title="Алексей Навальный фото">
+                    </picture>
                     <a class="mainnews__head__link" href="#">
                         <h3 class="mainnews__header">Алексей Навальный объявил акцию против пенсионной реформы 1 июля</h3>
                     </a>
@@ -221,7 +216,13 @@
                     <span class="mainnews__comments__count">17</span>
                 </article>
                 <article class="mainnews__article">
-                    <img class="mainnews__image" src="img/news-min-2.png" alt="фото паспорт">
+                    <picture>
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/news-min-2@1x.png 1x, img/news-min-2@2x.png 2x">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/news-min-2-mobile@1x.webp 1x, img/news-min-2-mobile@2x.webp 2x" type="image/webp">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/news-min-2-mobile@1x.png 1x, img/news-min-2-mobile@2x.png 2x">
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/news-min-2@1x.webp 1x, img/news-min-2@2x.webp 2x" type="image/webp">
+                        <img class="mainnews__image" src="img/news-min-2@1x.png" srcset="img/news-min-2@2x.png 2x" alt="Новость 2" title="фото">
+                    </picture>
                     <a class="mainnews__head__link" href="#">
                         <h3 class="mainnews__header">Дума увеличила пошлины за выдачу загранпаспортов и водительских прав</h3>
                     </a>
@@ -230,7 +231,13 @@
                     <span class="mainnews__comments__count">17</span>
                 </article>
                 <article class="mainnews__article">
-                    <img class="mainnews__image" src="img/news-min-3.png" alt="foto-news-min">
+                    <picture>
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/news-min-3@1x.png 1x, img/news-min-3@2x.png 2x">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/news-min-3-mobile@1x.webp 1x, img/news-min-3-mobile@2x.webp 2x" type="image/webp">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/news-min-3-mobile@1x.png 1x, img/news-min-3-mobile@2x.png 2x">
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/news-min-3@1x.webp 1x, img/news-min-3@2x.webp 2x" type="image/webp">
+                        <img class="mainnews__image" src="img/news-min-3@1x.png" srcset="img/news-min-3@2x.png 2x" alt="Новость 3" title="фото">
+                    </picture>
                     <a class="mainnews__head__link" href="#">
                         <h3 class="mainnews__header">В России заработал стриминговый сервис YouTube</h3>
                     </a>
@@ -239,7 +246,13 @@
                     <span class="mainnews__comments__count">17</span>
                 </article>
                 <article class="mainnews__article">
-                    <img class="mainnews__image" src="img/news-min-4.png" alt="фото футбол">
+                    <picture>
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/news-min-4@1x.png 1x, img/news-min-4@2x.png 2x">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/news-min-4-mobile@1x.webp 1x, img/news-min-4-mobile@2x.webp 2x" type="image/webp">
+                        <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/news-min-4-mobile@1x.png 1x, img/news-min-4-mobile@2x.png 2x">
+                        <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/news-min-4@1x.webp 1x, img/news-min-4@2x.webp 2x" type="image/webp">
+                        <img class="mainnews__image" src="img/news-min-4@1x.png" srcset="img/news-min-4@2x.png 2x" alt="Новость 4" title="фото">
+                    </picture>
                     <a class="mainnews__head__link" href="#">
                         <h3 class="mainnews__header">Кейн признан лучшим игроком матча ЧМ-2018 Тунис — Англия</h3>
                     </a>
@@ -252,8 +265,8 @@
                 <img class="banner__img__first" src="img/banner-1.png" alt="banner1" title="banner1">
                 <img class="banner__img__second" src="img/banner-2.png" alt="banner2" title="banner2">
             </aside>
-        <!-- </div>
-        <div class="fixed__container__main"> -->
+        </div>
+        <div class="fixed__container__main">
             <section class="popular__news">
                 <h2 class="popular__news__header">Самые читаемые новости</h2>
                 <ul class="popular__news__list list__reset">    
@@ -289,7 +302,13 @@
                     </li>
                 </ul>
                         <article class="popular__news__big">
-                            <img class="china" src="img/Rectangle6.png" alt="Самая читаемая новость" title="Самая читаемая новость">
+                            <picture>
+                                <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/china@1x.png 1x, img/china@2x.png 2x">
+                                <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/china-mobile@1x.webp 1x, img/china-mobile@2x.webp 2x" type="image/webp">
+                                <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/china-mobile@1x.png 1x, img/china-mobile@2x.png 2x">
+                                <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/china@1x.webp 1x, img/china@2x.webp 2x" type="image/webp">
+                                <img class="mainnews__image" src="img/china@1x.png" srcset="img/china@2x.png 2x" alt="Новость 3" title="фото">
+                            </picture>
                             <a class="popular__news__big__category__link" href="#">/ Политика</a>
                             <a class="popular__news__big__head__link" href="#">
                                 <h3 class="popular__news__big__header">Пекин обвинил Вашингтон в развязывании торговой войны</h3>
@@ -337,7 +356,13 @@
                 </ul>
             </nav>
             <div class="footer__about__wrapper">
-                <img class="logo__foot" src="img/logo-foot.png" alt="Новостное агенство" title="Новостное агенство">
+                <picture>
+                    <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/logo-foot@1x.png 1x, img/logo-foot@2x.png 2x">
+                    <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/logo-foot-mobile@1x.webp 1x, img/logo-foot-mobile@2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 767px) and (min-width: 320px)" srcset="img/logo-foot-mobile@1x.png 1x, img/logo-foot-mobile@2x.png 2x">
+                    <source media="(max-width: 1200px) and (min-width: 768px)" srcset="img/logo-foot@1x.webp 1x, img/logo-foot@2x.webp 2x" type="image/webp">
+                    <img class="logo__foot" src="img/logo-foot@1x.png" srcset="img/logo-foot@2x.png 2x" alt="Новостное агенство" title="Новостное агенство">
+                </picture>
                 <ul class="footer__about__list list__reset">
                     <li class="footer__navigation__item">
                         <a class="footer__navigation__link" href="#">Об агенстве</a>
@@ -375,10 +400,13 @@
                 </ul>
             </address>
         </div>
-        <small class="copy">&#169; Новостное агентство, 2017-2018 все права защищены</small>
+        <small class="copy">&#169; Новостное агентство, 2019-2020 все права защищены</small>
     </footer>
     <script src="scripts/jquery-3.4.1.min.js"></script>
     <script src="scripts/script.js"></script>
-    <script src="scripts/moment-with-locales.js"></script>
+    <script src="scripts/burger.js"></script>
+    <script src="scripts/header_time.js"></script>
+    <script src="scripts/header_searchform.js"></script>
+    <script src="scripts/currencies.js"></script>
 </body>
 </html>

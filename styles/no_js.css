@@ -1,0 +1,28 @@
+.no__js .header__burger {
+    display: none;
+}
+
+@media (max-width: 1023px) {
+    .no__js .header__navigation {
+        padding-top: 37px;
+    }
+
+    .no__js .header__navigation__list {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .no__js .header__navigation {
+        padding-top: 30px;
+    }
+
+    .no__js .header__navigation__list {
+        display: block;
+    }
+
+    .no__js .main__container {
+        margin-top: 0;
+        padding-top: 23px;
+    }
+}
