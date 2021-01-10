@@ -1,186 +1,120 @@
-.topbar__wrapper {
-    background-color: #00122f;
+
+/* header */
+.header {
+	background-color: #fff;
 }
 
-.fixed__container {
-    display: flex;
-    justify-content: space-between;
-
-    max-width: 1040px;
-    width: 100%;
-
-    margin: 0 auto;
-    padding: 20px 20px 17px 20px;
-
-}
-
-.topbar__heading {
-    padding: 0;
-    margin: 0;
-
-    font-size: 16px;
-    color: #fff;
-    font-weight: 400;
-}
-
-.topbar__link {
-    text-decoration: underline;
-    color: #fff;
-}
-
-.topbar__datetime__wrapper {
-    font-size: 16px;
-    color: #fff;
-    font-weight: 400;
-}
-
-.topbar__date {
-    margin-left: 6px;
-}
-
-.fixed__container__header {
-    max-width: 1040px;
-    width: 100%;
-
-    margin: 0 auto;
-    padding: 38px 20px 32px 20px;
-}
-
-.fixed__container__logo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 14px 11px 14px 0;
 }
 
 .header__burger {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    box-sizing: content-box;
-    width: 30px;
-    height: 30px;
-    padding: 5px 10px;
-    background: 0 0;
-    border: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	box-sizing: content-box;
+	width: 30px;
+	height: 30px;
+	padding: 5px 10px;
+	background: 0 0;
+	border: 0;
 }
 
-.header__dropdown__menu {
-    display: block;
-    margin-left: 4%;
-    margin-right: 2%;
-    padding-right: 20px;
-    
-    color: #4f9ed1;
-    background-image: url('../img/down-arrow.svg');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 15%;    
-}
-
-.dropdown__first__link {
-    padding-bottom: 3px;
-
-    border-bottom: 1px dashed;
-}
-
-.header__datetemp__wrapper {
-    display: flex;
-}
-
-.header__date {
-    display: flex;
-    align-self: flex-end;
-
-    color: #91919f;
-}
-
-.header__time {
-    margin-left: 30px;
-    padding-left: 25px;
-    
-    background-image: url('../img/clock-blue.svg');
-    background-repeat: no-repeat;
-    background-size: 16px;
-    color: #91919f;
-}
-
-.header__temperature {
-    margin-right: 30px;
-    margin-left: 30px;
-    padding-top: 5px;
-    padding-left: 39px;
-
-    background-image: url('../img/cloud-blue.svg');
-    background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: -5px;
-    background-size: 31px;
-    color: #91919f;
-}
-
-.header__search__form {
-    position: relative;
-    display: inline;
-}
-
-.search__form__input {
-    padding-right: 40px;
-
-    width: 320px;
-    height: 45px;
-    
-    text-indent: 20px;
-    letter-spacing: .1px;
-    font-size: 13px;
-    
-    border: none;
-    border-radius: 45px;
-    background-color: #f3f3f3;
-}
-
-.search__button {
-    position: absolute;
-    top: 16px;
-    right: 17px;
-    
-    width: 19px;
-    height: 16px;
-    
-    border: none;
-    background-color: #f3f3f3;
-    background-image: url('../img/search.svg');
-    background-repeat: no-repeat;
+.header__logo {
+	margin-right: auto;
 }
 
 .header__navigation {
-    padding-top: 37px;
+	margin-right: 72px;
+}
+.nav__list {
+	display: flex;
 }
 
-.header__navigation__list {
-    display: flex;
+.nav__item {
+	position: relative;
+	margin-right: 85px;
 
-    font-size: 16px;
+	color: var(--main-color);
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
 }
 
-.header__nav__item {
-    margin-right: 20px;
+.nav__item:last-child {
+	margin-right: 0;
 }
 
-.header__nav__item ::after {
-    padding-left: 19px;
+.nav__item::before {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
 
-    content: '/';
-
-    color: rgba(145, 145, 159, 0.3);
+	width: 105%;
+	height: 45%;
+	border-bottom: 2px solid var(--main-yellow);
+	opacity: 0;
+	transition: opacity .5s linear;
 }
 
-.header__nav__item:last-child {
-    margin: 0;
+.nav__item:hover::before {
+	opacity: 1;
+	transition: opacity 1s linear;
 }
 
-.header__nav__item:last-child ::after {
-    content: '';
+.nav__link {
+	position: relative;
+}
 
-    padding: 0;
+.nav__link::before {
+	position: absolute;
+	content: '';
+	top: -170%;
+	left: 0;
+	height: 170%;
+	width: 110%;
+}
+
+.nav__link::after {
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 0;
+	height: 170%;
+	width: 110%;
+}
+
+.header__input {
+	display: none;
+}
+
+.header__button {
+	display: flex;
+
+	border: none;
+	background-color: transparent;
+}
+
+.header__button > svg rect {
+	fill: currentColor;
+	transition: fill 0.5s linear;
+}
+
+.header__button:hover > svg rect {
+	fill: var(--main-yellow);
+	transition: fill 0.5s linear;
+}
+
+.header__button > svg circle {
+	stroke: currentColor;
+	transition: stroke 0.5s linear;
+}
+
+.header__button:hover > svg circle {
+	stroke: var(--main-yellow);
+	transition: stroke 0.5s linear;
 }

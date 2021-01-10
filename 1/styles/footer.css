@@ -1,0 +1,176 @@
+footer {
+    overflow: auto;
+    
+    font-size: 16px;
+    background-color: #00122f;
+}
+
+.fixed__container__foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 57px 20px 10px 20px;
+    
+    color: white;
+}
+
+.footer__navigation {
+    margin-right: 23px;
+}
+
+.footer__navigation__list {
+    display: inline-block;
+    
+    column-count: 2;
+}
+
+.footer__navigation__item {
+    margin-right: 28px;
+    margin-bottom: 14px;
+}
+
+.footer__about__wrapper {
+    padding-top: 4px;
+    padding-left: 2px;
+}
+
+.logo__foot {
+    margin-bottom: 20px;
+    
+    vertical-align: top;
+}
+
+
+
+.foot__address {
+    overflow: hidden;
+
+    letter-spacing: 0;
+    font-size: 17px;
+    font-style: normal;
+}
+
+.footer__social__item {
+    display: inline;
+}
+
+.vk {
+    display: inline-block;
+    
+    width: 40px;
+    height: 40px;
+    
+    margin-right: 17px;
+    padding: 0;
+    
+    border: solid 1px white;
+    border-radius: 100%;
+    background-image: url(../img/iconmonstr-vk-white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.fb {
+    display: inline-block;
+    
+    width: 40px;
+    height: 40px;
+    
+    margin-right: 17px;
+    padding: 0;
+    
+    border: solid 1px white;
+    border-radius: 100%;
+    background-image: url(../img/iconmonstr-facebook-white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.tw {
+    display: inline-block;
+    
+    width: 40px;
+    height: 40px;
+    
+    margin-right: 18px;
+    padding: 0;
+    
+    border: solid 1px white;
+    border-radius: 100%;
+    background-image: url(../img/iconmonstr-twitter-white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.inst {
+    display: inline-block;
+    
+    width: 40px;
+    height: 40px;
+    
+    padding: 0;
+    
+    border: solid 1px white;
+    border-radius: 100%;
+    background-image: url(../img/iconmonstr-instagram-white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.footer__contact__list {
+    padding-top: 37px;
+    padding-right: 42px;
+    
+    letter-spacing: 0;
+    font-size: 17px;
+}
+
+.footer__contact__item:first-child {
+    margin-bottom: 25px;
+}
+
+.tel {
+    margin-bottom: 20px;
+    padding-left: 35px;
+    
+    text-decoration: none;
+    color: white;
+    
+    background-image: url(../img/call-answer.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.mail {
+    padding-left: 35px;
+    
+    text-decoration: none;
+    color: white;
+    background-image: url(../img/envelope.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.copy {
+    display: block;
+
+    margin-top: 34px;
+    margin-bottom: 4px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    padding-left: 9px;
+    
+    text-align: center;
+    letter-spacing: -.3px;
+    color: #8d9198;
+    border-top: 1px solid #26354e;
+    font-size: 14px;
+}
