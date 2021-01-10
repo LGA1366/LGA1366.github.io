@@ -1,3 +1,5 @@
+// swiper
+
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   spaceBetween: 30,
@@ -12,6 +14,8 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 
+// accordion
+
 $( function() {
   $( ".accordion" ).accordion({
     collapsible: true,
@@ -21,8 +25,12 @@ $( function() {
   });
 });
 
-const burgerBtn = document.querySelector('.js-header-burger');
+// burger
+
+const burgerBtn = document.querySelector('.js-header-burger'),
+      headerNavList = document.querySelector('.header__navigation');
 burgerBtn.addEventListener('click', function(e){
   e.preventDefault;
   document.body.classList.toggle('show-burger');
+  headerNavList.classList.toggle('container')
 });

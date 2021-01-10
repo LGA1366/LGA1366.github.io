@@ -242,7 +242,7 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 25px;
+    padding: 30px 15px;
 
     width: 100%;
     height: 100vh;
@@ -361,7 +361,15 @@
 	.faq-article__heading {
 		font-size: 20px;
 		line-height: 32px;
-	}
+  }
+
+  .ui-accordion .ui-accordion-header {
+    font-size: 20px;
+  }
+
+  .faq-article__descr {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -372,7 +380,17 @@
 
 	.header__container {
 		padding: 8px 0;
-	}
+  }
+
+  .show-burger .header__navigation {
+    top: 68px;
+
+    max-height: calc(100vh - 68px);
+  }
+
+  .show-burger .nav__list .nav__item {
+    font-size: 26px;
+  }
 
 	.first-section, .first-section-img2, .first-section-img3 {
 		padding-right: 15px;
@@ -569,6 +587,10 @@
     padding-top: 314px;
   }
 
+  .ui-accordion .ui-accordion-header {
+    font-size: 18px;
+  }
+
   .footer__form {
     margin-bottom: 23px;
     padding-right: 0;
@@ -625,6 +647,16 @@
 
   .burger__span::after {
     top: 8px;
+  }
+
+  .show-burger .header__navigation {
+    top: 45px;
+
+    max-height: calc(100vh - 45px);
+  }
+
+  .show-burger .nav__list .nav__item {
+    font-size: 20px;
   }
 
   .header__form {
@@ -795,7 +827,7 @@
     padding-bottom: 18px;
   }
 
-  .faq-article__heading {
+  .ui-accordion .ui-accordion-header {
     margin-right: 30px;
 
     font-weight: 500;
@@ -818,6 +850,10 @@
   .faq-article__btn::after {
     left: 19%;
     width: 19px;
+  }
+
+  .faq-article__descr {
+    font-size: 12px;
   }
 
   .footer__container {
