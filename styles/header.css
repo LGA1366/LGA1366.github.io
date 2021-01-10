@@ -28,7 +28,9 @@
 }
 
 .header__navigation {
-	margin-right: 72px;
+  margin-right: 72px;
+
+  transition: top .9s,transform .3s .5s;
 }
 .nav__list {
 	display: flex;

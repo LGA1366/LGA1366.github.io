@@ -1,7 +1,7 @@
 @media (max-width: 1023px) {
     .picture__logo__off {
         width: 0;
-    
+
         transition: width 0.5s ease;
     }
 
@@ -33,7 +33,7 @@
     .search__button__mobile__pressed {
         position: absolute;
         top: 8px;
-        right: 30px; 
+        right: 30px;
     }
 
     .close__button {
@@ -43,7 +43,7 @@
 
         border: none;
         background-color: transparent;
-        
+
     }
 
     .header__nav__item {
@@ -128,14 +128,14 @@
         text-align: center;
     }
 
-    
+
 }
 
 @media (max-width: 767px) {
     .fixed__container {
         padding-top: 16px;
 
-        justify-content: center;   
+        justify-content: center;
     }
 
     .topbar__heading {
@@ -150,7 +150,7 @@
     .fixed__container__header {
         padding-top: 12px;
     }
-    
+
     .header__burger__span {
         position: relative;
         display: inline-block;
@@ -160,7 +160,7 @@
         background: rgb(0, 0, 0);
         transition: background .3s .5s;
     }
-    
+
     .header__burger__span::before {
         content: "";
         position: absolute;
@@ -172,7 +172,7 @@
         transform-origin: 50% 50%;
         transition: top .3s .3s,transform .3s;
     }
-    
+
     .header__burger__span::after {
         content: "";
         position: absolute;
@@ -184,7 +184,7 @@
         transform-origin: 50% 50%;
         transition: top .3s .3s,transform .3s;
     }
-    
+
     .header__burger {
         display: flex;
 
@@ -195,15 +195,15 @@
         background: 0 0;
     }
     .show__burger .header__burger__span::before {
-    top: 0;
-    transform: rotate3d(0,0,1,-45deg);
-    transition: top .3s,transform .3s .5s;
+      top: 0;
+      transform: rotate3d(0,0,1,-45deg);
+      transition: top .3s,transform .3s .5s;
     }
 
     .show__burger .header__burger__span::after {
-    top: 0;
-    transform: rotate3d(0,0,1,45deg);
-    transition: top .3s,transform .3s .5s;
+      top: 0;
+      transform: rotate3d(0,0,1,45deg);
+      transition: top .3s,transform .3s .5s;
     }
 
     .header__logo {
@@ -220,7 +220,7 @@
         justify-content: space-between;
         align-items: baseline;
         order: 1;
-        
+
         width: 100%;
         padding-top: 48px;
     }
@@ -248,7 +248,7 @@
         background-color: white;
         background-image: linear-gradient(to bottom, #f3f3f3 3px, #f7f7f7 5px, #f9f9f9 7px, #fff);
     }
-    
+
     .fixed__container__main {
         padding: 0;
     }
@@ -293,9 +293,9 @@
         margin-left: 20px;
     }
 
-    
 
-    
+
+
 }
 
 @media (max-width: 560px) {
@@ -312,7 +312,7 @@
     .popular__news___article > a.mainnews__category__link {
         margin-left: 0;
     }
-    
+
     .fixed__container__foot {
         flex-direction: column;
     }

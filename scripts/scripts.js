@@ -11,3 +11,18 @@ var swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+$( function() {
+  $( ".accordion" ).accordion({
+    collapsible: true,
+    active: 6,
+    icons: null,
+    header: "button"
+  });
+});
+
+const burgerBtn = document.querySelector('.js-header-burger');
+burgerBtn.addEventListener('click', function(e){
+  e.preventDefault;
+  document.body.classList.toggle('show-burger');
+});
