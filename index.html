@@ -7,7 +7,6 @@
 	<link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/Montserrat-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<link rel="stylesheet" href="styles/fonts.css">
@@ -19,7 +18,13 @@
 	<link rel="stylesheet" href="styles/stages.css">
 	<link rel="stylesheet" href="styles/faq.css">
 	<link rel="stylesheet" href="styles/footer.css">
-	<link rel="stylesheet" href="styles/media.css">
+  <link rel="stylesheet" href="styles/media.css">
+  <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script defer src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script defer src="scripts/swiper-scripts.js"></script>
+  <script defer src="scripts/accordion-scripts.js"></script>
+  <script defer src="scripts/burger-scripts.js"></script>
   <title>Евклид - проектные системы</title>
 </head>
 <body>
@@ -71,16 +76,6 @@
 		    </section>
       </div>
       <div class="swiper-pagination"></div>
-      <div class="swiper-button-next">
-        <svg width="23" height="42" viewBox="0 0 23 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M20.3641 20.586L0.682068 0.90393L1.586 0L22.172 20.586L1.586 41.172L0.682069 40.268L20.3641 20.586Z" fill="#666666"/>
-        </svg>
-      </div>
-      <div class="swiper-button-prev">
-        <svg width="22" height="42" viewBox="0 0 22 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M1.80787 20.586L21.4899 40.268L20.586 41.1719L1.53117e-05 20.586L20.586 -2.34706e-05L21.4899 0.903906L1.80787 20.586Z" fill="#666666"/>
-        </svg>
-      </div>
     </div>
 
 		<section class="section container about-us">
@@ -301,10 +296,5 @@
 			</p>
 		</div>
   </footer>
-  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="scripts/scripts.js"></script>
 </body>
 </html>
