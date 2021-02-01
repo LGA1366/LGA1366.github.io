@@ -1,21 +1,6 @@
 /* first-section */
-
-.swiper-button-next, .swiper-button-prev {
-  top: 43%;
-}
-
-.swiper-button-next::after, .swiper-button-prev::after {
+.swiper-pagination {
   display: none;
-}
-
-.swiper-button-next > svg path, .swiper-button-prev > svg path {
-  fill: var(--medium-grey);
-  transition: fill .5s linear;
-}
-
-.swiper-button-next:hover > svg path, .swiper-button-prev:hover > svg path {
-  fill: var(--main-yellow);
-  transition: fill .5s linear;
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets {
@@ -98,3 +83,4 @@
 	background-color: rgba(255, 153, 0, 0.6);
 	transition: background-color 0.5s linear;
 }
+

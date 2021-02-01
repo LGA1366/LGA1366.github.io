@@ -13,6 +13,10 @@
 	box-sizing: border-box;
 }
 
+*:focus {
+  outline: 1px solid var(--main-yellow);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -55,6 +59,10 @@ input {
 
 button {
 	cursor: pointer;
+}
+
+textarea {
+  resize: none;
 }
 
 .main {

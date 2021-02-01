@@ -133,6 +133,12 @@
 	min-height: 147px;
 }
 
+.footer-form__bio:focus,
+.footer-form__mail:focus,
+.footer-form__text:focus {
+  outline: 1px solid var(--main-yellow);
+}
+
 .footer-form__button {
 	margin-right: 15px;
 	padding: 20px 52px;

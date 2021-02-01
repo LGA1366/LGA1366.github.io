@@ -7,14 +7,6 @@
 		max-width: 1650px;
   }
 
-  .swiper-button-next {
-    right: 25px;
-  }
-
-  .swiper-button-prev {
-    left: 25px;
-  }
-
 	.first-section, .first-section-img2, .first-section-img3 {
 		padding-right: 700px;
 
@@ -271,12 +263,12 @@
     content: none;
   }
 
-  .swiper-container-horizontal>.swiper-pagination-bullets {
-    bottom: 88px;
+  .swiper-pagination {
+    display: block;
   }
 
-  .swiper-button-next, .swiper-button-prev {
-    display: none;
+  .swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 88px;
   }
 
 	.first-section {
