@@ -1,6 +1,7 @@
 // swiper
 
-var swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper', {
+  // direction: 'vertical',
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
