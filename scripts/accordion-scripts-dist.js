@@ -1,1 +1,0 @@
-$((function(){$(".accordion").accordion({collapsible:!0,active:6,icons:null,header:"button",heightStyle:"content"})}));
